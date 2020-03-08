@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default props => {
+export function Exercises(props) {
     return (
         <div>
-            <h1>Footer</h1>
+            <p>Hello from exercises</p>
         </div>
     );
 };
