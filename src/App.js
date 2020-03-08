@@ -1,16 +1,24 @@
-import React, {Fragment} from 'react';
-import NavBar from './components/NavBar.js';
-import {Header, Footer} from './components/componentsPort.js';
-import {Exercises} from './components/Excercises/Exercises.js';
-import './App.css';
+import React from "react";
+import NavBar from "./components/NavBar.js";
+import { Header, Footer } from "./components/componentsPort.js";
+import { Exercises } from "./components/Excercises/Exercises.js";
+import "./App.css";
+import { Container, Grid } from "@material-ui/core";
 
 function App() {
   return (
-    <fragment className="App">
-      <Header/>
-      <Exercises/>
-      <Footer/>
-    </fragment>
+    <Grid
+      className="App"
+      style={{ backgroundColor: "red" }}
+      container
+      direction="row"
+      justify="center"
+      alignItems="center"
+    >
+      <Header />
+      <Exercises />
+      <Footer />
+    </Grid>
   );
 }
 
