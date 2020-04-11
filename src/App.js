@@ -1,24 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import NavBar from "./components/NavBar.js";
 import { Header, Footer } from "./components/componentsPort.js";
 import { Exercises } from "./components/Excercises/Exercises.js";
-import "./App.css";
+import "./style/App.css";
 import { Container, Grid } from "@material-ui/core";
 
 function App() {
+  const [screenMode, setScreenMode] = useState("desktop");
+
   return (
-    <Grid
-      className="App"
-      style={{ backgroundColor: "red" }}
-      container
-      direction="row"
-      justify="center"
-      alignItems="center"
-    >
-      <Header />
-      <Exercises />
-      <Footer />
-    </Grid>
+    <Container fixed>
+      <Grid
+        className="App"
+        container
+        direction="row"
+        justify="center"
+        alignItems="center"
+      >
+        <Header />
+        <Exercises />
+        <Footer />
+      </Grid>
+    </Container>
   );
 }
 

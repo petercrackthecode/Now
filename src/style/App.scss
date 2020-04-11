@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+
+  .Header {
+    width: 100%;
+    min-height: 67px;
+
+    .btn {
+        background-color: black;
+        color: white;
+        text-transform: none;
+        padding: 8px 20px;
+        font-weight: bold;
+        letter-spacing: .5px;
+        line-height: 160%;
+        font-size: 16px;
+        font-family: Graphik, sans-serif;
+    }
+  }
+}

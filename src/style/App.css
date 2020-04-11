@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+.App .Header {
+  width: 100%;
+  min-height: 67px;
+}
+.App .Header .btn {
+  background-color: black;
+  color: white;
+  text-transform: none;
+  padding: 8px 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: Graphik, sans-serif;
+}
+
+/*# sourceMappingURL=App.css.map */
