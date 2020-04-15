@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import NavBar from "./components/NavBar.js";
 import { Header, Footer } from "./components/componentsPort.js";
 import { Exercises } from "./components/Excercises/Exercises.js";
 import "./style/App.css";
